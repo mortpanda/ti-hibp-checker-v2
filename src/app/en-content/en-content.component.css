@@ -1,0 +1,395 @@
+body{
+    font-family: "ABCWhyte Book","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif !important
+}
+
+.loggedinuser{
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+    padding-top: 97px;
+
+}
+
+.btn btn-primary mt-4 mb-3 {
+    width: 200px !important;
+}
+
+.loginplate{
+    /* background-color:white;  */
+    /* z-index: 9999; */
+    padding: 20px;
+    border-width: 50px;
+    border-style: hidden;
+    /* color: #41414B; */
+    /* color: black; */
+    color: #00297A;
+    font-size: 12px;
+    padding-top: 97px;
+}
+
+.form-label{   
+    color: #00297A;
+}
+
+
+.input_box{
+    color: #00297A;
+}
+/* .form_username{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+} */
+.cs_image{
+    z-index: 9999;
+}
+
+.container{
+    padding-bottom: 10px;
+    
+}
+
+.console {
+    z-index: 9999;
+    position: relative;
+    width: 100%;
+    height: 550px;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 30px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+    color: white;
+    overflow-y: scroll;   
+    word-break:break-word;
+    font-size: 12px; 
+    text-align: left;
+}
+  .console::before {
+    z-index: 9999;
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+    
+    /* overflow-y: scroll; */
+}
+
+  .console pre {
+    z-index: 9999;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    color: white;
+    padding: 0 1rem 1rem;
+    margin: 0;
+    overflow-y: scroll;
+    
+    
+}
+
+.mat-form-field-label {
+    color: #00297A;
+    
+}
+
+/* input.mat-input-element{
+    background-color: #6E6E78;
+ } */
+
+ .mat-form-field {
+    color:#00297A;
+    background-color: white !important; 
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    
+}
+
+.mat-hint {
+    color: #00297A;
+}
+
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: #00297A;
+}
+
+.mat-form-field.mat-focused .mat-form-field-label.mat-accent {
+    color: #00297A;
+}
+
+.mat-form-field.mat-focused .mat-form-field-label.mat-warn {
+    color: #00297A;
+}
+
+.mat-focused .mat-form-field-required-marker {
+    color: #00297A;
+}
+
+.mat-form-field-ripple {
+    background-color: #00297A
+}
+
+/* .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: white;
+} */
+
+.mat-form-field.mat-focused .mat-form-field-ripple.mat-accent {
+    background-color: white;
+    color: #00297A;
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple.mat-warn {
+    background-color: white;
+    color: #00297A;
+}
+
+.mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid) .mat-form-field-infix::after {
+    /* color: white; */
+    color: #00297A;
+}
+
+.mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-accent .mat-form-field-infix::after {
+    /* color: white; */
+    color: #00297A;
+}
+
+.mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-warn .mat-form-field-infix::after {
+    color: #00297A;
+}
+
+.mat-form-field.mat-form-field-invalid .mat-form-field-label {
+    color: #00297A;
+}
+
+.mat-form-field.mat-form-field-invalid .mat-form-field-label.mat-accent, .mat-form-field.mat-form-field-invalid .mat-form-field-label .mat-form-field-required-marker {
+    color: #00297A;
+}
+
+/* .mat-form-field.mat-form-field-invalid .mat-form-field-ripple, .mat-form-field.mat-form-field-invalid .mat-form-field-ripple.mat-accent {
+    background-color: #f44336
+} */
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #00297A;
+}
+
+.mat-form-field-appearance-legacy .mat-hint {
+    color: #00297A;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #00297A;
+    
+}
+
+.mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 33%, transparent 0%);
+    background-size: 4px 100%;
+    background-repeat: repeat-x;
+    color: #00297A;
+}
+
+.mat-form-field-appearance-standard .mat-form-field-underline {
+    background-color: rgba(255, 255, 255, .7);
+    color: #00297A;
+}
+
+.mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 33%, transparent 0%);
+    background-size: 4px 100%;
+    background-repeat: repeat-x;
+    color: #00297A;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    color: #00297A;
+    background-color: rgba(255, 255, 255, .1)
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex {
+    color: #00297A;
+    background-color: rgba(255, 255, 255, .05)
+}
+
+.mat-form-field-appearance-fill .mat-form-field-underline::before {
+    color: #00297A;
+    /* background-color: rgba(255, 255, 255, .5) */
+    background-color: white;
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-label {
+    color: #00297A;
+    /* color: rgba(255, 255, 255, .5) */
+}
+
+.mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-underline::before {
+    background-color: transparent
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #00297A;
+    /* color: rgba(255, 255, 255, .3) */
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #fff
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #7b1fa2
+}
+
+.mat-form-field-appearance-outline.mat-focused.mat-accent .mat-form-field-outline-thick {
+    color: #69f0ae
+}
+
+.mat-form-field-appearance-outline.mat-focused.mat-warn .mat-form-field-outline-thick {
+    color: #f44336
+}
+
+.mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+    color: #f44336
+}
+
+.mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-label {
+    /* color: rgba(255, 255, 255, .5) */
+    color: #00297A;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline {
+    /* color: rgba(255, 255, 255, .15) */
+    color: #00297A;
+}
+
+.mat-form-field-type-mat-native-select .mat-form-field-infix::after {
+    /* color: rgba(255, 255, 255, .7) */
+    color: #00297A;
+}
+
+.mat-input-element:disabled, .mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+    /* color: rgba(255, 255, 255, .5) */
+    color: #00297A;
+}
+
+.mat-input-element {
+    color: #00297A;
+    caret-color: #7b1fa2
+}
+
+.mat-input-element::placeholder {
+    color: #00297A;
+}
+
+.mat-input-element::-moz-placeholder {
+    color: #00297A;
+}
+
+.mat-input-element::-webkit-input-placeholder {
+    color: #00297A;
+}
+
+.mat-input-element:-ms-input-placeholder {
+    color: #00297A;
+}
+
+.mat-input-element option {
+    color: #00297A;
+}
+
+.mat-input-element option:disabled {
+    color: rgba(0, 0, 0, .38)
+}
+
+.mat-form-field.mat-accent .mat-input-element {
+    caret-color: #69f0ae
+}
+
+.mat-form-field.mat-warn .mat-input-element, .mat-form-field-invalid .mat-input-element {
+    caret-color: #f44336
+}
+
+.mat-form-field-type-mat-native-select.mat-form-field-invalid .mat-form-field-infix::after {
+    color: #f44336
+}
+
+.mat-list-base .mat-list-item {
+    color: #fff
+}
+
+.mat-list-base .mat-list-option {
+    color: #fff
+}
+
+.mat-list-base .mat-subheader {
+    color: #00297A;
+}
+
+.mat-list-item-disabled {
+    background-color: #000
+}
+
+.mat-list-option:hover, .mat-list-option:focus, .mat-nav-list .mat-list-item:hover, .mat-nav-list .mat-list-item:focus, .mat-action-list .mat-list-item:hover, .mat-action-list .mat-list-item:focus {
+    background: #00297A;
+}
+
+
+
+
+
+
+
+
+.mat-menu-item .mat-icon-no-color, .mat-menu-item-submenu-trigger::after {
+    color: #00297A;
+}
+
+.mat-menu-item:hover:not([disabled]), .mat-menu-item.cdk-program-focused:not([disabled]), .mat-menu-item.cdk-keyboard-focused:not([disabled]), .mat-menu-item-highlighted:not([disabled]) {
+    background: #00297A;
+}
+
+
+
+.mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+    color: #00297A;                    
+}
+
+.mat-form-field.mat-focused.mat-accent .mat-select-arrow {
+    color: #00297A;
+}
+
+.mat-form-field.mat-focused.mat-warn .mat-select-arrow {
+    color: #00297A;
+}
+
+.mat-form-field .mat-select.mat-select-invalid .mat-select-arrow {
+    color: #00297A;
+}
+
+.mat-form-field .mat-select.mat-select-disabled .mat-select-arrow {
+    color: #00297A;
+}
+
+#okta-sign-in {
+    font-family: proxima nova,montserrat,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    color: #777;
+    position: relative;
+    overflow: auto;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    margin: 15px auto 8px !important;
+    width: 400px;
+    min-width: 300px;
+}

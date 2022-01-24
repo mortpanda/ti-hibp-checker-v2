@@ -1,0 +1,46 @@
+<p></p>
+<h1><div class="loggedinuser" id="loggedinuser"></div> </h1>
+<p></p>
+<div class="container" fxLayout="row warap" fxLayoutAlign="center" fxLayoutGap="30px" >
+    <div class="item item1">
+         <!-- <h1 id="login">Login</h1> -->
+        
+        <a class="navbar-brand" href="https://www.okta.com/services/success-and-support/" target="_blank">
+        <img src="https://cdn.brandfolder.io/2VK5Y09C/at/5hf5mqw3gjt7k9jh9ss875b/Logo_Customer-Success_45x250.png?height=54&width=300" alt="Okta Customer Success"  class="cs_image"> 
+        </a>
+        <form [formGroup]="loginform" (ngSubmit)="onSubmit()" id="loginpage" class="loginplate" cdkfocusregionstart="true">
+            <p *ngIf="loginInvalid" class="text-danger">
+                <!-- The username and password were not recognized -->
+            </p>      
+            <div class="form-group">
+                    <mat-form-field appearance="legacy" [style.width.px]=350 >
+                    <mat-label class="form-label">ユーザー名</mat-label>
+                    <!-- <input matInput placeholder="Enter email address" cdkFocusInitial input type="email" class="form-control" id="username" autocomplete="username" formControlName="username" required> -->
+                    <input matInput placeholder="ユーザー名を入力してください" cdkFocusInitial input type="email" class="form-control" id="username" autocomplete="username" formControlName="username" required class="input_box" appAutoFocusDirective>
+                    <mat-icon matSuffix>adb</mat-icon>
+                    </mat-form-field>
+            </div>
+            <div class="form-group">
+                    <mat-form-field appearance="legacy" [style.width.px]=350>
+                    <mat-label class="form-label">パスワード</mat-label>
+                    <input matInput placeholder="パスワードを入力してください" input type="password" class="form-control" id="exampleInputPassword1" autocomplete="current-password" formControlName="password" required class="input_box">
+                    <mat-icon matSuffix>lock</mat-icon>
+                    </mat-form-field> 
+            </div> 
+        
+            <button id="login-button" type="submit" class="btn btn-primary mt-4 mb-3">Login</button>
+            
+                
+        </form>
+        <link href="https://global.oktacdn.com/okta-signin-widget/5.9.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>     
+        <div id="okta-widget-container"></div>
+    </div>
+    <div id="console" class="console">
+        
+    </div>
+
+    
+  </div>
+
+
+  

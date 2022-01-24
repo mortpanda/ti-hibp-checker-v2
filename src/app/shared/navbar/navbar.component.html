@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    
+    <div class="container">
+        
+        <div class="navbar-translate" >           
+            <button  class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()" style="position: absolute; right: 0;">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+            
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            
+            <ul class="navbar-nav ml-auto">
+                
+                
+
+                <!-- <li class="nav-item" *ngIf="isHome()"> -->
+                <!-- <li>
+                    <a lass="btn btn-reg-danger btn-round" class="btn btn-reg-danger btn-round" id="profile" (click)="TestModal()">Profile</a>
+                </li>               -->
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" href="https://twitter.com/okta_japan" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                        <p class="d-lg-none">Twitter</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" href="https://www.facebook.com/Okta/" target="_blank">
+                        <i class="fa fa-facebook-square"></i>
+                        <p class="d-lg-none">Facebook</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" href="https://www.youtube.com/OktaInc" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                        <p class="d-lg-none">YouTube</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" data-placement="bottom" href="https://www.linkedin.com/company/okta-inc-/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                        <p class="d-lg-none">LinkedIn</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="https://help.okta.com/en/prod/Content/index.htm" class="nav-link" target="_blank"><i class="nc-icon nc-book-bookmark"></i>Okta製品情報</a>
+                </li>                
+                <li class="nav-item" *ngIf="isHome()">
+                 <li>
+                    <!-- <a lass="btn btn-danger btn-round" class="btn btn-danger btn-round" id="login"  id="widget" (click)="widgetModal()" >日本語</a> -->
+                    <a routerLink="/home" class="btn btn-danger btn-round" class="btn btn-danger btn-round" id="button_jp"  >日本語</a>
+                </li>
+                <li class="nav-item" *ngIf="isHome()"> 
+                <li>
+                    <!-- <a lass="btn btn-reg-danger btn-round" class="btn btn-reg-danger btn-round" id="register" (click)="registerModal()">English</a> -->
+                    <a routerLink="/en" class="btn btn-danger btn-round" class="btn btn-danger btn-round" id="button_en" >English</a>
+                </li>               
+                
+                <!-- <li class="nav-item" *ngIf="isHome()"> -->
+                <li>
+                    <a class="btn btn-danger btn-round" class="btn btn-danger btn-round" id="logout" (click)="OktaLogout()">Logout</a>
+                </li> 
+
+                <!-- <li class="nav-item" *ngIf="isHome()"> -->
+                <!-- <li>
+                    <a lass="btn btn-reg-danger btn-round" class="btn btn-reg-danger btn-round" id="logout" (click)="OktaLogout()">ログアウト</a>
+                </li>              -->
+
+                
+                <!-- <li class="nav-item" *ngIf="isDocumentation()">
+                    <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
+                </li> -->
+
+                
+            </ul>
+        </div>
+    </div>
+</nav>
